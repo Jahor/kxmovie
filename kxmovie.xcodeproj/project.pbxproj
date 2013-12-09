@@ -47,6 +47,8 @@
 		87FD6191163A75DC0090956E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79437163910D0000A0848 /* QuartzCore.framework */; };
 		87FD6192163A75DF0090956E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79439163910EA000A0848 /* Accelerate.framework */; };
 		87FD6193163A75E10090956E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79435163910CA000A0848 /* OpenGLES.framework */; };
+		ADD3B1A7184EA62800006A3A /* KxMovieEmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3B1A6184EA62800006A3A /* KxMovieEmbeddedViewController.m */; };
+		ADD3B1A8184EA89500006A3A /* KxMovieEmbeddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3B1A6184EA62800006A3A /* KxMovieEmbeddedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +103,8 @@
 		87E7946116394577000A0848 /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
 		87FD6175163A75440090956E /* libkxmovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkxmovie.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD6179163A75440090956E /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
+		ADD3B1A5184EA62800006A3A /* KxMovieEmbeddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieEmbeddedViewController.h; sourceTree = "<group>"; };
+		ADD3B1A6184EA62800006A3A /* KxMovieEmbeddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieEmbeddedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,8 @@
 		87FD6177163A75440090956E /* kxmovie */ = {
 			isa = PBXGroup;
 			children = (
+				ADD3B1A5184EA62800006A3A /* KxMovieEmbeddedViewController.h */,
+				ADD3B1A6184EA62800006A3A /* KxMovieEmbeddedViewController.m */,
 				87E7941F1639107F000A0848 /* kxmovie.bundle */,
 				87E7946116394577000A0848 /* KxAudioManager.h */,
 				87E7941E1639107F000A0848 /* KxAudioManager.m */,
@@ -327,6 +333,7 @@
 				87E794291639107F000A0848 /* KxMovieGLView.m in Sources */,
 				87E7942A1639107F000A0848 /* KxMovieViewController.m in Sources */,
 				87E7942F1639108E000A0848 /* AppDelegate.m in Sources */,
+				ADD3B1A8184EA89500006A3A /* KxMovieEmbeddedViewController.m in Sources */,
 				87E794301639108E000A0848 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD3B1A7184EA62800006A3A /* KxMovieEmbeddedViewController.m in Sources */,
 				87FD6182163A75AF0090956E /* KxAudioManager.m in Sources */,
 				87FD6183163A75B10090956E /* KxMovieDecoder.m in Sources */,
 				87FD6184163A75B50090956E /* KxMovieGLView.m in Sources */,
