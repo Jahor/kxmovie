@@ -4,3 +4,6 @@
 [submodule "gas-preprocessor"]
 	path = gas-preprocessor
 	url = git://github.com/mansr/gas-preprocessor.git
+[submodule "CocoaLumberjack"]
+	path = CocoaLumberjack
+	url = git://github.com/robbiehanson/CocoaLumberjack.git

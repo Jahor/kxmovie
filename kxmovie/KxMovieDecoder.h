@@ -14,6 +14,8 @@
 
 extern NSString * kxmovieErrorDomain;
 
+#define FFmpegLoggingContext                     0x706A9368
+
 typedef enum {
     
     kxMovieErrorNone,

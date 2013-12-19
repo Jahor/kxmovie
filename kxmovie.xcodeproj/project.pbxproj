@@ -103,6 +103,8 @@
 		87E7946116394577000A0848 /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
 		87FD6175163A75440090956E /* libkxmovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkxmovie.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD6179163A75440090956E /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
+		AD2A428F18628A1B003B7298 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = CocoaLumberjack/Lumberjack/DDLog.h; sourceTree = SOURCE_ROOT; };
+		AD2A4295186293FF003B7298 /* KxDDLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KxDDLog.h; sourceTree = "<group>"; };
 		ADD3B1A5184EA62800006A3A /* KxMovieEmbeddedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieEmbeddedViewController.h; sourceTree = "<group>"; };
 		ADD3B1A6184EA62800006A3A /* KxMovieEmbeddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMovieEmbeddedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -220,6 +222,7 @@
 		87FD6177163A75440090956E /* kxmovie */ = {
 			isa = PBXGroup;
 			children = (
+				AD2A428F18628A1B003B7298 /* DDLog.h */,
 				ADD3B1A5184EA62800006A3A /* KxMovieEmbeddedViewController.h */,
 				ADD3B1A6184EA62800006A3A /* KxMovieEmbeddedViewController.m */,
 				87E7941F1639107F000A0848 /* kxmovie.bundle */,
@@ -232,6 +235,7 @@
 				87E794241639107F000A0848 /* KxMovieViewController.h */,
 				87E794251639107F000A0848 /* KxMovieViewController.m */,
 				87FD6178163A75440090956E /* Supporting Files */,
+				AD2A4295186293FF003B7298 /* KxDDLog.h */,
 			);
 			path = kxmovie;
 			sourceTree = "<group>";
