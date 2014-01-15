@@ -251,7 +251,7 @@ static NSMutableDictionary * gHistory;
         
         [self freeBufferedFrames];
         [_decoder closeFile];
-        [_decoder openFile:nil error:nil];
+        //[_decoder openFile:nil error:nil];
     }
 }
 
