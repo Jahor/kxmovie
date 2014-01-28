@@ -240,6 +240,7 @@ static NSMutableDictionary * gHistory;
             [_decoder closeFile];
             [_decoder openFile:nil error:nil];
             
+            KxDDLogError(@"Out of memory");
             [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Failure", nil)
                                         message:NSLocalizedString(@"Out of memory", nil)
                                        delegate:nil
@@ -576,8 +577,8 @@ static NSMutableDictionary * gHistory;
                         
                         if (_decoder.validVideo) {
                         
-                            const CGFloat delta = _moviePosition - frame.position;
-                            
+                           /* const CGFloat delta = _moviePosition - frame.position;
+                           
                             if (delta < -2.0) {
                                 
                                 memset(outData, 0, numFrames * numChannels * sizeof(float));
@@ -587,10 +588,10 @@ static NSMutableDictionary * gHistory;
                                 _debugAudioStatusTS = [NSDate date];
 #endif
                                 break; // silence and exit
-                            }
+                            }*/
                             
                             [_audioFrames removeObjectAtIndex:0];
-                            
+                            /*
                             if (delta > 2.0 && count > 1) {
                                 
 #ifdef DEBUG
@@ -599,7 +600,7 @@ static NSMutableDictionary * gHistory;
                                 _debugAudioStatusTS = [NSDate date];
 #endif
                                 continue;
-                            }
+                            }*/
                             
                         } else {
                             
@@ -1131,13 +1132,14 @@ static NSMutableDictionary * gHistory;
 
 - (void) handleDecoderMovieError: (NSError *) error
 {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Failure", nil)
+    /*UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Failure", nil)
                                                         message:[error localizedDescription]
                                                        delegate:nil
                                               cancelButtonTitle:NSLocalizedString(@"Close", nil)
                                               otherButtonTitles:nil];
     
-    [alertView show];
+    [alertView show];*/
+    //TODO add call to delegate
 }
 
 - (BOOL) interruptDecoder
